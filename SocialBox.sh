@@ -56,15 +56,7 @@ echo -e " 		[+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check
 echo -e "$nc"
-if [ $check = "Y" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check = "y" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check = "Yes" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check = "yes" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check = "YES" ]; then
+if [ $check = "Y" || $check = "y" || $check = "yes"|| $check = "YES" || ]; then
 cd .. && bash SocialBox.sh
 else
 exit 1
@@ -77,15 +69,7 @@ echo -e "               [+]$yellow Brute Force Complete $nc[$green✓$nc] $nc[+]
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check2
 echo -e "$nc"
-if [ $check2 = "Y" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check2 = "y" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check2 = "Yes" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check2 = "yes" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check2 = "YES" ]; then
+if [ $check2 = "Y" || $check = "y" || $check = "yes"|| $check = "YES" || ]; then
 cd .. && bash SocialBox.sh
 else
 exit 1
@@ -104,15 +88,7 @@ echo -e "		[+]$red Service Tor Stopped$nc [+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check3
 echo -e "$nc"
-if [ $check3 = "Y" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check3 = "y" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check3 = "Yes" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check3 = "yes" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check3 = "YES" ]; then
+if [ $check3 = "Y" || $check = "y" || $check = "yes"|| $check = "YES" || ]; then
 cd .. && bash SocialBox.sh
 else
 exit 1
@@ -131,15 +107,7 @@ echo -e "		[+]$red Service Tor Stopped$nc [+]"
 echo -e "$red"
 read -p "Wanna Back To Main Menu [ Y / n ] : " check4
 echo -e "$nc"
-if [ $check4 = "Y" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check4 = "y" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check4 = "Yes" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check4 = "yes" ]; then
-cd .. && bash SocialBox.sh
-elif [ $check4 = "YES" ]; then
+if [ $check4 = "Y" || $check = "y" || $check = "yes"|| $check = "YES" || ]; then
 cd .. && bash SocialBox.sh
 else
 exit 1
